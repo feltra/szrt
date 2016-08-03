@@ -6,11 +6,11 @@ The ideia behind this is provide a set of tools that brings scalabilitie
 for dealing with remediation issues in zabbix.
 
 ## Components
-* Standalone request script ( The Bridge )
-* Remediation Router (Webservice)
-* Remediation Dispatcher (Jobs dispatcher)
-* Remediation Library ( Remediation Catalog)
-* Remediation Patch (standalone runner)
+* Standalone request script (The Bridge)
+* Remediation Router (zrr - Webservice)
+* Remediation Dispatcher (zrd - Jobs dispatcher)
+* Remediation Library (zrl - Remediation Catalog)
+* Remediation Patch (zrp - standalone runner)
  
 ### Standalone request script
 This tool is responsible to build the bridge between zabbix and the webservice
